@@ -1,0 +1,24 @@
+{
+  "name": "zksync-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducchinh1912/zksync-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducchinh1912/zksync-tutorial/issues"
+  },
+  "homepage": "https://github.com/ducchinh1912/zksync-tutorial#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "zksync": "^0.13.1"
+  }
+}
