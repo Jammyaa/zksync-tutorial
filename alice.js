@@ -5,7 +5,7 @@
     const token = 'ETH'
     const amountToDeposit = '0.05'
     const amountToTransfer = '0.02'
-    const amountToWithdraw = '0.002'
+    const amountToWithdraw = '0.05'
 
     const zkSyncProvider = await utils.getZkSyncProvider(zksync, process.env.NETWORK_NAME)
     const ethersProvider = await utils.getEthereumProvider(ethers, process.env.NETWORK_NAME)
@@ -30,5 +30,4 @@
     console.log('Withdrawing')
     const withdrawalFee = await utils.getFee('Withdraw', aliceGoerliWallet.address, token, zkSyncProvider, ethers)
     await utils.withdrawToEthereum(aliceZkSyncWallet, amountToWithdraw, withdrawalFee, token, zksync, ethers)
-
 })()

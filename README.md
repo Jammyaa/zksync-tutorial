@@ -15,5 +15,6 @@ npm install
 
 ```bash
 node -r dotenv/config bob.js
+node -r dotenv/config alice.js
 ```
 
