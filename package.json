@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ducchinh1912/zksync-tutorial#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "zksync": "^0.13.1"
   }
